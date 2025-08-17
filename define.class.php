@@ -29,7 +29,6 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class profile_define_radio extends profile_define_base {
-
     /**
      * Adds elements to the form for creating/editing this type of profile field.
      * @param moodleform $form

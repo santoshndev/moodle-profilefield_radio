@@ -29,7 +29,6 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class profile_field_radio extends profile_field_base {
-
     /** @var array $options */
     public $options;
 
