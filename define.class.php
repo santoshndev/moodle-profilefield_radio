@@ -85,5 +85,4 @@ class profile_define_radio extends profile_define_base {
 
         return $data;
     }
-
 }
