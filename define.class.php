@@ -35,8 +35,15 @@ class profile_define_radio extends profile_define_base {
      */
     public function define_form_specific($form) {
         // Param 1 for radio type contains the options.
-        $form->addElement('textarea', 'param1', get_string('profileradiooptions', 'profilefield_radio'),
-                          ['rows' => 6, 'cols' => 40]);
+        $form->addElement(
+            'textarea',
+            'param1',
+            get_string('profileradiooptions', 'profilefield_radio'),
+            [
+                'rows' => 6,
+                'cols' => 40,
+            ]
+        );
         $form->setType('param1', PARAM_TEXT);
 
         // Default data.

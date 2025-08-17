@@ -190,5 +190,3 @@ class profile_field_radio extends profile_field_base {
         return (array) $this->field;
     }
 }
-
-
